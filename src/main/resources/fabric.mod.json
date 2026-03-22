@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "lightdust",
+  "version": "${version}",
+  "name": "Light Dust",
+  "description": "Ambient dust particles that float in light sources and respond to environmental conditions.",
+  "authors": [
+    "swiss"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lightdust.LightDust"
+    ],
+    "modmenu": [
+      "com.lightdust.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "lightdust.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

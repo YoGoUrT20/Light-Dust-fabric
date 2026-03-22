@@ -1,5 +1,9 @@
 # Light Dust
 
+
+# 1.21.10 Is located in releases tab on the right, if you need any other version, you can build it yourself using gradle, ask chatgpt how to do it 😎
+
+
 Light Dust is a lightweight client-side mod that adds floating dust to your world. Built with interactive physics, dust reacts to light, weather, and the exact biome you are exploring.
 
 ## Features
